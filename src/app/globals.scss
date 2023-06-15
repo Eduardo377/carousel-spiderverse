@@ -4,6 +4,7 @@
     transition: background 1s ease-in-out;
     &:not(.hero-page)::before {
         content: "";
+        background-size: cover;
         background: $background;
         height: 100%;
         position: absolute;
