@@ -24,6 +24,11 @@ export default function Icon() {
           justifyContent: 'center',
         }}
       >
+        <link rel="shortcut icon" href="/public/assets/favicon.ico" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/public/assets/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/public/assets/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/public/assets/favicon-16x16.png" />
+        <link rel="mask-icon" href="/public/assets/safari-pinned-tab.svg" color="#5bbad5" />
       </div>
     ),
     // ImageResponse options
