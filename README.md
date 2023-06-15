@@ -4,6 +4,8 @@
 
 O projeto consiste em uma aplicação interativa inspirada no universo do Homem-Aranha, usando as principais stacks front-end: React, Next.js 13, a biblioteca Framer Motion, Sass e TypeScript para criar um projeto visual incrível e de alta performance.
 
+[Watch the video](https://youtu.be/AedzxGZ4RV8)
+
 ## 💻 Tecnologias utilizadas no projeto
 
 - [React.js](https://reactjs.org) (v18)
