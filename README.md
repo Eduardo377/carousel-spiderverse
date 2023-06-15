@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [![Demonstração do projeto](https://i.imgur.com/o09dCdW.png)](https://youtu.be/AedzxGZ4RV8)
 
 ### Veja o vídeo demonstração do projeto clicando na imagem ☝.
@@ -6,6 +7,15 @@
 
 O projeto consiste em uma aplicação interativa inspirada no universo do Homem-Aranha, usando as principais stacks front-end: React, Next.js 13, a biblioteca Framer Motion, Sass e TypeScript para criar um projeto visual incrível e de alta performance.
 
+=======
+<img src="./assets/capa.png" alt="capa" />
+
+# Projeto Carrossel Spider-Verse
+
+O projeto consiste em uma aplicação interativa inspirada no universo do Homem-Aranha, usando as principais stacks front-end: React, Next.js 13, a biblioteca Framer Motion, Sass e TypeScript para criar um projeto visual incrível e de alta performance.
+
+[Watch the video](https://youtu.be/AedzxGZ4RV8)
+>>>>>>> 25b362891f9ef9f521b19b9a071657accf7dd07d
 
 ## 💻 Tecnologias utilizadas no projeto
 
