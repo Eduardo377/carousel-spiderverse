@@ -1,8 +1,8 @@
-<img src="https://drive.google.com/file/d/1YfoXvUB2nAg4PdZ8kHnmFlBfQcqbFChg/view?usp=sharing" alt="capa" />
+<img src="./assets/capa.png" alt="capa" />
 
 # Projeto Carrossel Spider-Verse
 
-Este é o repositório do projeto Spider-Verse, desenvolvido durante uma live no Youtube em parceria com a [DIO](https://dio.me). O projeto consiste em uma aplicação interativa inspirada no universo do Homem-Aranha, usando as principais stacks front-end: React, Next.js 13, a biblioteca Framer Motion, Sass e TypeScript para criar um projeto visual incrível e de alta performance.
+O projeto consiste em uma aplicação interativa inspirada no universo do Homem-Aranha, usando as principais stacks front-end: React, Next.js 13, a biblioteca Framer Motion, Sass e TypeScript para criar um projeto visual incrível e de alta performance.
 
 ## 💻 Tecnologias utilizadas no projeto
 
