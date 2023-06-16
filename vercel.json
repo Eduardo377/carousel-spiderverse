@@ -1,4 +1,7 @@
 {
+    "installCommand": "yarn install",
+    "buildCommand": "yarn build",
+    "devCommand": "yarn dev",
     "version": 2,
     "builds": [{
         "src": "src/app/layout.tsx",
