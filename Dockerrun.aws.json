@@ -1,0 +1,10 @@
+{
+    "AWSEBDockerrunVersion": "1",
+    "Image": {
+        "Name": "vercel/node.js"
+    },
+    "Ports": [{
+        "ContainerPort": 3000
+    }],
+    "Command": "yarn start"
+}
