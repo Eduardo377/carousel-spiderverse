@@ -1,5 +1,5 @@
 {
-    "installCommand": "npm install",
+    "installCommand": "yarn install",
     "buildCommand": "next build",
     "devCommand": "next dev",
     "version": 2,
