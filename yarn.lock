@@ -870,9 +870,9 @@ chalk@4.1.2, chalk@^4.0.0, chalk@^4.0.2, chalk@^4.1.0, chalk@^4.1.2:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
 
-checkly@latest:
+checkly@4.0.12:
   version "4.0.12"
-  resolved "https://registry.npmjs.org/checkly/-/checkly-4.0.12.tgz"
+  resolved "https://registry.yarnpkg.com/checkly/-/checkly-4.0.12.tgz#e0a63420f8cd18596fcd6d363cafe643b6ca8233"
   integrity sha512-m4gkVJZq3UMUmV+fGnfJZ2otyu9+fyqheGYsglAaE4br+Wcz+Jxzobtdthm+QmqutjKVz/D7KvAIapBgnY472w==
   dependencies:
     "@oclif/core" "2.8.11"
