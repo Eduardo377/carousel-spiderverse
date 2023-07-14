@@ -7,5 +7,5 @@ const filePath = join(process.cwd(), "src/app/api/heroes/heroes.json");
 const jsonData = JSON.parse(readFileSync(filePath, "utf8"));
 
 export async function GET() {
-return NextResponse.json({ data: jsonData });
+  return NextResponse.json({ data: jsonData });
 }
