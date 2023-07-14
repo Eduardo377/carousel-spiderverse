@@ -1,8 +1,5 @@
 [build]
   command = "yarn build"
   publish = "out"
-
-
-[[edge_functions]]
-function = "testes-carrossel"
-path = "/test"
+  [build.environment]
+NETLIFY_NEXT_PLUGIN_SKIP = "true"
