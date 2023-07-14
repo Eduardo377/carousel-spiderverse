@@ -9,3 +9,4 @@ const jsonData = JSON.parse(readFileSync(filePath, "utf8"));
 export async function GET() {
 return NextResponse.json({ data: jsonData });
 }
+//
