@@ -3,7 +3,4 @@ const nextConfig = {}
 
 // module.exports = nextConfig
 
-module.exports = {
-    mainFields: ['src/app', 'module', 'main'],
-    nextConfig
-};
+module.exports = {};
