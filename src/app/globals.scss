@@ -1,11 +1,13 @@
-@import "./variables.scss";
+// globals.scss
+@use './variables' as *; // Usando todas as variáveis e mixins de variables.scss
+
 :root {
     height: 100vh;
     transition: background 1s ease-in-out;
     &:not(.hero-page)::before {
         content: "";
         background-size: cover;
-        background: $background;
+        background: $background; // Certifique-se de que $background esteja definido em variables.scss
         height: 100%;
         position: absolute;
         top: 0;
@@ -14,10 +16,10 @@
 }
 
 body {
-    color: $text-color;
+    color: $text-color; // Certifique-se de que $text-color esteja definido em variables.scss
     height: calc(100vh - 3.5rem);
     margin: auto;
-    max-width: $max-width;
+    max-width: $max-width; // Certifique-se de que $max-width esteja definido em variables.scss
     overflow: hidden;
     position: relative;
 }

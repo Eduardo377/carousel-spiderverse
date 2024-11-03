@@ -7,7 +7,9 @@ interface IProps {
   };
 }
 
-export default function Hero({ params: { id } }: IProps) {
+export default async function Hero({ params }: { params: { id: string } }) {
+  const { id } = await params; // Aguarde os params
+
   const heroes: IHeroData[] = require("@/app/api/heroes/heroes.json");
 
   return <Carousel heroes={heroes} activeId={id} />;
