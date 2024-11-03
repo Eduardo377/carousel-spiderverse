@@ -24,9 +24,8 @@
     },
     "devDependencies": {
         "@types/istanbul-lib-report": "^3.0.3",
-        "checkly": "4.9.1",
         "eslint-config-prettier": "^9.1.0",
-        "eslint-plugin-import": "^2.64.0",
+        "eslint-plugin-import": "^2.31.0",
         "eslint-plugin-unused-imports": "^4.1.4",
         "sass": "^1.80.6",
         "ts-node": "^10.9.2",

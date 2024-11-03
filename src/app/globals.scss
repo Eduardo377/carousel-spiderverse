@@ -1,5 +1,5 @@
 // globals.scss
-@use './variables' as *; // Usando todas as variáveis e mixins de variables.scss
+@use './variables' as *;
 
 :root {
     height: 100vh;
@@ -7,7 +7,7 @@
     &:not(.hero-page)::before {
         content: "";
         background-size: cover;
-        background: $background; // Certifique-se de que $background esteja definido em variables.scss
+        background: $background;
         height: 100%;
         position: absolute;
         top: 0;
@@ -16,10 +16,10 @@
 }
 
 body {
-    color: $text-color; // Certifique-se de que $text-color esteja definido em variables.scss
+    color: $text-color;
     height: calc(100vh - 3.5rem);
     margin: auto;
-    max-width: $max-width; // Certifique-se de que $max-width esteja definido em variables.scss
+    max-width: $max-width;
     overflow: hidden;
     position: relative;
 }

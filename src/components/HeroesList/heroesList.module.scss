@@ -1,14 +1,15 @@
-@import "@/app/variables.scss";
+@use "@/app/variables.scss";
+
 .heroes {
     align-items: flex-end;
     display: flex;
     justify-content: space-between;
-    max-width: calc($max-width - 700px);
+    max-width: calc(variables.$max-width - 700px); // Corrigido
     position: absolute;
     top: 40%;
     width: 100%;
-    @media screen and (min-width: $max-width) {
-        max-width: calc($max-width - 400px);
+    @media screen and (min-width: variables.$max-width) { // Corrigido
+        max-width: calc(variables.$max-width - 400px);
         top: 50%;
     }
 }
@@ -23,32 +24,32 @@
         width: 100%;
     }
     &.spider-man-616 {
-        height: $spider-man-616-height;
+        height: variables.$spider-man-616-height; // Corrigido
     }
     &.mulher-aranha-65 {
-        height: $mulher-aranha-65-height;
+        height: variables.$mulher-aranha-65-height; // Corrigido
     }
     &.spider-man-1610 {
-        height: $spider-man-1610-height;
+        height: variables.$spider-man-1610-height; // Corrigido
     }
     &.sp-dr-14512 {
-        height: $sp-dr-14512-height;
+        height: variables.$sp-dr-14512-height; // Corrigido
     }
     &.spider-ham-8311 {
-        height: $spider-ham-8311-height;
+        height: variables.$spider-ham-8311-height; // Corrigido
     }
     &.spider-man-90214 {
-        height: $spider-man-90214-height;
+        height: variables.$spider-man-90214-height; // Corrigido
     }
     &.spider-man-928 {
-        height: $spider-man-928-height;
+        height: variables.$spider-man-928-height; // Corrigido
     }
 }
 
 .title {
     font-size: 26vw;
     margin: 0;
-    @media screen and (min-width: $max-width) {
+    @media screen and (min-width: variables.$max-width) { // Corrigido
         font-size: 30rem;
     }
 }
